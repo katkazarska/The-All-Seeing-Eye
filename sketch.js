@@ -29,7 +29,7 @@ function setup() {
   const canvas = createCanvas(windowWidth, windowHeight);
   angleMode("degrees");
   colorMode(HSB);
-  canvas.touchStarted(togglePlay);
+  canvas.mouseClicked(togglePlay);
 
   togglePlay();
 }
